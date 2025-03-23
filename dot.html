@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandip Kafle Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3rem;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            opacity: 0;
+            animation: fadeIn 3s ease-in-out forwards;
+            animation-delay: 1s;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            margin: 20px 0;
+            opacity: 0;
+            animation: fadeIn 3s ease-in-out forwards;
+            animation-delay: 1.5s;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Sandip Kafle Page</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg" alt="Nepal Flag">
+    <p>Hello! I'm Sandip Kafle, a student from Nepal. I'm passionate about learning new things, especially in technology and management. I strive to balance my studies while improving my skills in programming and academics.</p>
+    <img src="https://via.placeholder.com/200" alt="AI Generated Image 1">
+    <img src="https://via.placeholder.com/200" alt="AI Generated Image 2">
+</body>
+</html>
